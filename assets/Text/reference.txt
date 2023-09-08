@@ -1,0 +1,9 @@
+@inproceedings{reference,
+  author    = {Zakaria Abdelmoiz Dahi and Enrique Alba and Rodrigo Gil-Merino and Francisco Chicano and and Gabriel Luque },
+  editor    = { Enrique Alba and Gabriel Luque and Francisco Chicano and Carlos Cotta and David Camacho and Manuel Ojeda-Aciego and Susana Montes and Alicia Troncoso and José Cristobal Riquelme Santos and Rodrigo Gil-Merino},
+  title     = {A Survey on Quantum Computer Simulators},
+  booktitle = { 19th Conference of the Spanish Association for Artificial Intelligence, CAEPIA},
+  pages     = {941xx-xx946},
+  publisher = {CAEPIA},
+  url_paper={https://caepia20-21.uma.es/inicio_files/caepia20-21-actas.pdf}
+}
