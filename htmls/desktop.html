@@ -124,11 +124,11 @@
                   <tr>	<td>JKQ--DDSIM </td><td>Unknown</td><td> >  4  </td><td>Unknown</td><td> >  1000</td><td>Quantum simulations</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
                   <tr>  <td>QuIDE </td><td>Unknown</td><td bgcolor="lightgray"> Unlimited</td><td>15   </td><td>     </td><td>Quantum computer simulations.</td><td>Inactive</td><td>Yes  </td><td>Yes  </td><td>Yes </td></tr> 
                   <tr>  <td>QSim / Qsimh</td><td>Unknown</td><td> >=  1  </td><td>22   </td><td> >=  1 </td><td>Various</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
-                  <tr>  <td>QCSim</td><td>Unknown</td><td> >=  3  </td><td>Unknown   </td><td> Unknown </td><td>Quantum Algorithms, Error Correction, Adders, Simulation, Games, Machine Learning and Optimisation</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
+                  <tr>  <td>QCSim</td><td>No (needs Eigen, FFTW)</td><td> 32  </td><td>33   </td><td> >= 1 </td><td>Quantum Algorithms, Error Correction, Adders, Simulation, Games, Machine Learning and Optimisation</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
                   <tr style="border-bottom: solid black;">  <td style="border-bottom: 1pt solid black">SimQubit </td><td style="border-bottom: 1pt solid black">Unknown</td><td style="border-bottom: 1pt solid black">32   </td><td style="border-bottom: 1pt solid black">12   </td><td style="border-bottom: 1pt solid black"> >=  1 </td><td style="border-bottom: 1pt solid black">Various: algorithms, etc.</td><td style="border-bottom: 1pt solid black">Inactive</td><td style="border-bottom: 1pt solid black">Yes  </td><td style="border-bottom: 1pt solid black">Yes  </td><td style="border-bottom: 1pt solid black">Yes </td></tr></tr>
                       
                       
-                  <tr ><td style="border-right: 1pt solid black; border-bottom: 1pt solid black" rowspan="14" >Python </td><td >PyQuil /Forest</td><td>Yes    </td><td> >= 6 </td><td>23     </td><td> >= 1 </td><td>Various</td><td>Active</td><td>Yes  </td><td>No   </td><td>No </td></tr>
+                  <tr ><td style="border-right: 1pt solid black; border-bottom: 1pt solid black" rowspan="18" >Python </td><td >PyQuil /Forest</td><td>Yes    </td><td> >= 6 </td><td>23     </td><td> >= 1 </td><td>Various</td><td>Active</td><td>Yes  </td><td>No   </td><td>No </td></tr>
                   <tr>    <td > ProjectQ </td><td>Yes    </td><td> >= 22  </td><td> >= 9   </td><td> >= 1 </td><td>Various</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
                   <tr>    <td>PyQu </td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
                   <tr>    <td>QCircuits </td><td>Unknown  </td><td> >= 3   </td><td> >= 4   </td><td> >= 1 </td><td>Various</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
@@ -141,9 +141,16 @@
                   <tr>    <td>QTensor </td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Execute large QAOA quantum circuits</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
                   <tr>    <td>Quimb </td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Quantum information many-body calculations, focusing primarily on tensor networks</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
                   <tr>    <td>cuQuantum </td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td> Speed up quantum circuit simulations based on state vector and tensor network methods by orders of magnitude</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
-                  <tr style="border-bottom: solid black;">    <td style="border-bottom: 1pt solid black">toqito </td><td style="border-bottom: 1pt solid black">Unknown</td><td style="border-bottom: 1pt solid black">Unknown</td><td style="border-bottom: 1pt solid black">Unknown</td><td style="border-bottom: 1pt solid black">Unknown</td><td style="border-bottom: 1pt solid black">Study quantum information: states, channels, and measurements.</td><td style="border-bottom: 1pt solid black">Active</td><td style="border-bottom: 1pt solid black">Yes  </td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;">Unknown </td></tr></tr>
-                      
-                      
+                  <tr >    <td>toqito </td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Study quantum information: states, channels, and measurements.</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>Unknown </td></tr></tr>
+                 
+                  <!-- external contribution-->    
+                <tr><td>  Qibo </td><td>  Yes </td><td>  >25  </td><td>  ? </td><td>  Unlimited </td><td>  Multi-purpose (QFT, Shor, Grover, ...) </td><td>  Active </td><td>  Yes </td><td>  Yes </td><td>  No </td></tr> 
+                <tr><td>  Perceval </td><td>  Yes </td><td>  >30 </td><td>  ? </td><td>  Unlimited </td><td>  Multi purpose (Shor, grover's search, QUBO, quantum walks, ...) </td><td>  Active </td><td>  Yes </td><td>  Yes </td><td>  No </td></tr>
+                <tr><td>  Blueqat/qaqarot </td><td>  yes </td><td>  >50 </td><td>  ? </td><td>  Unlimited </td><td>  Multi-purpose (QAOA, ...) </td><td>  ? </td><td>  Yes </td><td>  Yes </td><td>  No </td></tr>
+                <tr style="border-bottom: solid black;"><td> Azure SDK </td><td>  Yes </td><td>  >=110</td><td>  Unknown </td><td>  Unknown </td><td>  Quantum Computer Simulation </td><td>  Active </td><td>  Yes </td><td> No</td><td>  ?</td></tr>   
+                  
+
+
                   <tr><td style="border-bottom: 1pt solid black; border-right: 1pt solid black;"  rowspan="10"> Java </td><td>Bloch Sphere Simulator</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Bloch Sphere Visualisation</td><td>Inactive</td><td>Yes  </td><td>No   </td><td>Yes </td></tr>
                   <tr>	<td>jQuantum</td><td>Unknown</td><td>15   </td><td>7      </td><td> >= 1 </td><td>Quantum circuit simulations</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>Yes </td></tr>
                   <tr>	<td>jSQ</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Quantum cryptography</td><td>Inactive</td><td>Yes  </td><td>Yes  </td><td>Unknown </td></tr>
@@ -157,25 +164,36 @@
                     
                   
                   
-                  <tr> <td style="border-bottom: 1pt solid black; border-right: 1pt solid black;"  rowspan="8"> Mathematica </td><td>QDENSITY </td><td>Unknown  </td><td> >= 5   </td><td> >= 7   </td><td> >= 1 </td><td>Teleportation, Shor's and Grover's algorithms</td><td>Unknown</td><td>Yes  </td><td>Yes  </td><td>Unknown </td></tr>
+                  <tr> <td style="border-bottom: 1pt solid black; border-right: 1pt solid black;"  rowspan="9"> Mathematica </td><td>QDENSITY </td><td>Unknown  </td><td> >= 5   </td><td> >= 7   </td><td> >= 1 </td><td>Teleportation, Shor's and Grover's algorithms</td><td>Unknown</td><td>Yes  </td><td>Yes  </td><td>Unknown </td></tr>
                   <tr>    <td>qmatrix </td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Computation in quantum information theory</td><td>Inactive</td><td>Yes  </td><td>Yes  </td><td>Unknown </td></tr>
                   <tr>    <td>Quantum </td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Various algorithms, applications, etc.</td><td>Inactive</td><td>Yes  </td><td>Yes  </td><td>Yes </td></tr>
                   <tr>    <td>QuantumUtils </td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Various</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>Unknown </td></tr>
                   <tr>   <td>Quantum Information Programs in Mathematica </td><td>Unknown  </td><td> >= 4   </td><td> >= 9   </td><td> >= 1 </td><td>Quantum circuit simulation</td><td>Inactive</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
                   <tr>    <td>Quantum Turing Machine Simulator </td><td>Unknown</td><td>Unknown</td><td>Unknown  </td><td> >= 1 </td><td>Quantum Turing Machine</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
                   <tr>    <td>QuCalc </td><td>Unknown</td><td>Unknown</td><td>Unknown  </td><td> >= 1 </td><td>Quantum circuit simulation and problem solving</td><td>Inactive</td><td>Yes  </td><td>Yes  </td><td>Unknown </td></tr>
-                  <tr style="border-bottom: solid black;">    <td style="border-bottom: 1pt solid black;">QI </td><td style="border-bottom: 1pt solid black;">Unknown</td><td style="border-bottom: 1pt solid black;">Unknown</td><td style="border-bottom: 1pt solid black;">Unknown  </td><td style="border-bottom: 1pt solid black;"> >= 1 </td><td style="border-bottom: 1pt solid black;">Symbolic analysis of quantum states and operations</td><td style="border-bottom: 1pt solid black;">Active</td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;">Unknown </td></tr>
-                  
-                  
-                    
-                  <tr> <td style="border-bottom: 1pt solid black; border-right: 1pt solid black;"  rowspan="6"> Matlab Octave</td><td>M-fun for QC Progs </td><td>Unknown</td><td>Unknown  </td><td> >= 1   </td><td> >= 1 </td><td>Various</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
+                  <tr>    <td> QI </td><td>Unknown</td><td>Unknown</td><td>Unknown  </td><td> >= 1 </td><td>Symbolic analysis of quantum states and operations</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>Unknown </td></tr>
+                  <!--external contribution-->
+                  <tr style="border-bottom: solid black;"><td> Wolfram Quantum Framework </td><td>  Yes </td><td>  Unknown </td><td> Unkown </td><td>  Unkown </td><td>  Quantum computer simulation </td><td>  Active </td><td>  Yes</td><td>  Yes</td><td>  Yes</td></tr>
+
+
+
+
+                  <!-- external contribution-->
+                  <tr> <td style="border-bottom: 1pt solid black; border-right: 1pt solid black;"  rowspan="6"> C++/Python
+                  <tr><td>  MQT-DDSIM (update from JKQ–DDSIM) </td><td>  Yes </td><td>  >4</td><td>  Unknown</td><td>  >1000</td><td>  Quantum simulations (Implemented Shor's Algorithm)</td><td> Active </td><td> Yes</td><td>  Yes</td><td>  No</td></tr>  
+                  <tr><td>  Stim </td><td>  Yes </td><td>  Large </td><td>  Large </td><td>  Unlimited </td><td>  Quantum Error Correction </td><td>  Active </td><td>  Yes </td><td>  Yes </td><td>  No </td></tr> 
+                  <tr><td>  Qulacs </td><td>  Yes </td><td>  >5 (25) </td><td>  ? </td><td>  Unlimited </td><td>  Fast simulation of large circuits </td><td>  Active </td><td>  Yes </td><td>  Yes </td><td>  No </td></tr> 
+                  <tr><td>  cuQuantum SDK </td><td>  Yes </td><td>  30-50 </td><td>  Unknown </td><td>  Unlimited </td><td>  GPU Based implementation of State Vectors and Tensor Networks (Qsim support the use of cuQuantum) </td><td>  Active </td><td>  Yes </td><td>  Yes </td><td>  No </td></tr> 
+                  <tr style="border-bottom: solid black;"> <td>  (py)tket </td><td>  Yes </td><td>  20/32 </td><td>  Uknown </td><td>  Uknown </td>  <td> QDK and Emulators for Quantinuum H1 and H2 QC models  </td><td>  Active </td><td>  Yes </td><td>  Yes </td><td style="border-bottom: 1pt solid black;">  No  </td></tr>
+
+                  <tr> <td style="border-bottom: 1pt solid black; border-right: 1pt solid black;"  rowspan="7"> Matlab Octave</td><td>M-fun for QC Progs </td><td>Unknown</td><td>Unknown  </td><td> >= 1   </td><td> >= 1 </td><td>Various</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
                   <tr>	<td>QC simulator </td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>No   </td><td>No   </td><td>Unknown </td></tr>
                   <tr>	<td>QETLAB </td><td>Unknown  </td><td> >= 1 </td><td>Unknown  </td><td> >= 1 </td><td>Quantum entanglement theory</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>Yes </td></tr>
                   <tr>	<td>QLib </td><td>Unknown  </td><td> >= 3   </td><td> >= 4   </td><td> >= 1 </td><td>Various: entanglement, etc.</td><td>Inactive</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
                   <tr>	<td>Quantum Octave </td><td>Unknown  </td><td> >= 1   </td><td> >= 1   </td><td> >= 1 </td><td>Various: Teleportation, Shor and Grover algorithms, etc.</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>Unknown </td></tr>
-                  <tr style="border-bottom: solid black;">	<td style="border-bottom: 1pt solid black;">Qubit4matlab </td><td style="border-bottom: 1pt solid black;">Unknown</td><td style="border-bottom: 1pt solid black;"> >= 20</td><td style="border-bottom: 1pt solid black;"> >=  3    </td><td style="border-bottom: 1pt solid black;"> >= 1 </td><td style="border-bottom: 1pt solid black;">Quantum information/quantum optics</td><td style="border-bottom: 1pt solid black;">Inactive</td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;"> Unknown </td></tr></tr>
-                  
-                    
+                  <tr>	<td>Qubit4matlab </td><td>Unknown</td><td> >= 20</td><td> >=  3    </td><td> >= 1 </td><td>Quantum information/quantum optics</td><td>Inactive</td><td>Yes  </td><td>Yes  </td><td> Unknown </td></tr></tr>
+                  <!-- External contribution-->
+                  <tr style="border-bottom: solid black;"><td>  Matlab/JS </td><td>  Psitrum </td><td>  Yes </td><td>  ? </td><td>  ? </td><td>  ? </td><td>  Qubit manipulation </td><td>  2 years ago </td><td>  Yes </td><td>  Yes </td><td>  Yes </td></tr></tr>   
                     
                   <tr> <td style="border-bottom: 1pt solid black; border-right: 1pt solid black;"  rowspan="5"> Haskell LISP </td><td>Quacee </td><td>Unknown  </td><td> >= 2   </td><td> >= 3   </td><td> >= 1 </td><td>Quantum circuit simulation</td><td>Active</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
                   <tr>	<td>CS 20c Project </td><td>Unknown</td><td>Unknown</td><td>Unknown  </td><td> >= 1 </td><td>Quantum Turing machine</td><td>Inactive</td><td>Yes  </td><td>Yes  </td><td>No </td></tr>
@@ -191,10 +209,11 @@
                   <tr style="border-bottom: solid black;">	<td style="border-bottom: 1pt solid black;">Yao.jl </td><td style="border-bottom: 1pt solid black;">Unknown</td><td style="border-bottom: 1pt solid black;">Unknown</td><td style="border-bottom: 1pt solid black;">Unknown  </td><td style="border-bottom: 1pt solid black;"> >= 1 </td><td style="border-bottom: 1pt solid black;"> Empower quantum information simulation</td><td style="border-bottom: 1pt solid black;">Active</td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;">Yes</td><td style="border-bottom: 1pt solid black;">No </td></tr></tr>
                     
                     
-                  <tr>  <td style="border-bottom: 1pt solid black; border-right: 1pt solid black;"  rowspan="3"> Unknown</td><td>QCAD </td><td>Unknown</td><td>7    </td><td>11   </td><td bgcolor="lightgray">  Unlimited</td><td>Quantum circuit design</td><td>Inactive</td><td>Yes  </td><td>No   </td><td>Yes </td>  </tr>  
+                  <tr>  <td style="border-bottom: 1pt solid black; border-right: 1pt solid black;"  rowspan="4"> Unknown</td><td>QCAD </td><td>Unknown</td><td>7    </td><td>11   </td><td bgcolor="lightgray">  Unlimited</td><td>Quantum circuit design</td><td>Inactive</td><td>Yes  </td><td>No   </td><td>Yes </td>  </tr>  
                   <tr>	<td>Quantum Computer Emulator </td><td>Unknown</td><td>16   </td><td> >=  2 </td><td> >=  1 </td><td>Various: algorithms, hardware designs of quantum computers, etc.</td><td>Active</td><td>Yes  </td><td>No   </td><td>Yes </td></tr>
-                  <tr style="border-bottom: solid black;">	<td style="border-bottom: 1pt solid black;">Q-Kit </td><td style="border-bottom: 1pt solid black;">Unknown</td><td style="border-bottom: 1pt solid black;" bgcolor="lightgray"> Unlimited</td><td style="border-bottom: 1pt solid black;">22   </td><td style="border-bottom: 1pt solid black;" bgcolor="lightgray">    Unlimited  </td><td style="border-bottom: 1pt solid black;">Qunatum circuit simulation</td><td style="border-bottom: 1pt solid black;">Active</td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;">No   </td><td style="border-bottom: 1pt solid black;">Yes </td></tr>	</tr>
-                    
+                  <tr><td>Q-Kit </td><td">Unknown</td><td bgcolor="lightgray"> Unlimited</td><td>22   </td><td bgcolor="lightgray">    Unlimited  </td><td>Qunatum circuit simulation</td><td>Active</td><td>Yes  </td><td>No   </td><td>Yes </td></tr>	</tr>
+                  <!--external contribution-->
+                  <tr style="border-bottom: solid black;"><td>  Coq </td><td> QuantumLib/QWire</td><td> Unknown</td><td>  Unknown </td><td>  Unknown </td><td>  Unknown </td><td>  Formal Verification of Circuits </td><td>  Active </td><td> Yes</td><td>  Yes </td><td>  No </td></tr> 
                     
                      
                        
@@ -218,7 +237,8 @@
                   <tr style="border-bottom: solid black;"> <td style="border-bottom: 1pt solid black; border-right: 1pt solid black;" >   Scala</td><td style="border-bottom: 1pt solid black;">VQS - Visual Quantum Simulator </td><td style="border-bottom: 1pt solid black;">Unknown  </td><td style="border-bottom: 1pt solid black;"> >= 4   </td><td style="border-bottom: 1pt solid black;"> >= 3   </td><td style="border-bottom: 1pt solid black;"> >= 1 </td><td style="border-bottom: 1pt solid black;">Schr&#246;dinger full state Quantum Simulator</td><td style="border-bottom: 1pt solid black;">Active</td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;">No </td></tr>
                   <tr style="border-bottom: solid black;"> <td style="border-bottom: 1pt solid black; border-right: 1pt solid black;" >	 OCaml</td><td style="border-bottom: 1pt solid black;">QOCS </td><td style="border-bottom: 1pt solid black;">Unknown</td><td style="border-bottom: 1pt solid black;">(limited)  >=  1</td><td style="border-bottom: 1pt solid black;"> >=  3 </td><td style="border-bottom: 1pt solid black;"> >=  1 </td><td style="border-bottom: 1pt solid black;">Quantum circuit simulator: e.g. Shor's algorithm</td><td style="border-bottom: 1pt solid black;">Active</td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;"> No </td></tr>   
                   <tr style="border-bottom: solid black;">	<td style="border-bottom: 1pt solid black; border-right: 1pt solid black;" >F#</td><td style="border-bottom: 1pt solid black;">LIQUiD </td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;">up to 30</td><td style="border-bottom: 1pt solid black;"> >=  4 </td><td style="border-bottom: 1pt solid black;"> >=  1 </td><td style="border-bottom: 1pt solid black;">Various: error correction, algorithms, etc.</td><td style="border-bottom: 1pt solid black;">Active</td><td style="border-bottom: 1pt solid black;">Yes  </td><td style="border-bottom: 1pt solid black;">Yes</td><td style="border-bottom: 1pt solid black;">No </td></tr>
-                  <tr >	<td style="border-right: 1pt solid black;" > Multiple</td><td>QRBGS </td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Random number generation</td><td>Unknown</td><td>Yes  </td><td>No</td><td>No </td></tr>
+                  <tr style="border-bottom: solid black;"><td>  R </td><td>  qsimlatR </td><td>  Yes </td><td>  <=24 </td><td>  ? </td><td>  Unlimited (?) </td><td>  Circuit expression/simulation (compatibility with Qiskit)</td><td>  Active </td><td>  Yes </td><td>  Yes </td><td>  Native </td></tr>
+                  <tr>	<td style="border-right: 1pt solid black;" > Multiple</td><td>QRBGS </td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Unknown</td><td>Random number generation</td><td>Unknown</td><td>Yes  </td><td>No</td><td>No </td></tr>
                   </table>
               </div>
             </div>
