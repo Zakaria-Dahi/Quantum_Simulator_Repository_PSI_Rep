@@ -1,6 +1,6 @@
 # Quantum_Simulator_Repository_PSI_Rep
 
-**Programmer:** Zakaria Abdelmoiz DAHI, University of Malaga, Spain. :shipit:
+**Programmer:** Zakaria Abdelmoiz DAHI. :shipit:
 
 **About:** 
 
