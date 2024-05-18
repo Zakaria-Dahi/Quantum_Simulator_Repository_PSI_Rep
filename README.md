@@ -16,6 +16,7 @@
 
 **To be analysed:**
 - CUDA-Q: https://developer.nvidia.com/cuda-q
+- CuQuantum is dublicated. Merge both versions in C++/Python and Python.
 
 **Demo** :movie_camera:
 
