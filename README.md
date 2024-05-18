@@ -14,6 +14,9 @@
 - Article PDF: Click [HERE](assets/pdfs/article.pdf) to download.
 - Proceedings PDF: Click [HERE](https://caepia20-21.uma.es/inicio_files/caepia20-21-actas.pdf) to download.
 
+**To be analysed:**
+- CUDA-Q: https://developer.nvidia.com/cuda-q
+
 **Demo** :movie_camera:
 
 
